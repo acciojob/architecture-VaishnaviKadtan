@@ -1,16 +1,113 @@
 <!DOCTYPE html>
+<html lang="en">
+	<head>
 
-<html>
+		<style>
+			body{
+				margin:0;
+				padding:0;
+				background-color:#f4f4f4;
+				font-family:arial,sans-serif;
+			}
+			.main-container{
+				width:1100px;
+				margin:20px auto;
+				background-color:#ffffff;
+				padding:20px;
+				box-shadow:0 0 10px rgba(0,0,0,0.1);
+			}
+			h1{
+				text-align:center;
+				color:#336;
+			}
+			.imageContainer{
+				text-align:center;
+				margin-bottom:30px;			
+			}
+			.imageContainer img{
+				width:100%;
+				max-height:400px;
+				object-fit:cover;
+				border-radius:20px;
+			}
+			table{
+				width:100%;
+				border-collapse:collapse;
+				margin-top:20px;
+			}
+			td{
+				padding:15px;
+				vertical-align:top;
+			}	
+            td img{
+				width:100%;
+				height:auto;
+				border-radius:6px;
+			}
+			.text-content{
+				font-size:16px;
+				line-height:1.6;
+				color:#444;
+				text-align:justify;
+			}
+			tr:nth-child(even){
+				background color:#f9f9f9;
+			}
+			
+			
+		
+		</style>
+		
+	</head>
+	<body>
+		<div class="main-container">
+			<h1>Architecture and Design</h1>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+			<!-- Required image Container div -->
+			<div class="imageContainer">
+				<img src="https://i.pinimg.com/originals/f1/68/e1/f168e1ca875f299be577b66d6a67345d.jpg" alt="Modern Architechure">
+				
+			</div>
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+			<!-- Required Table -->
+			<table border="1">
+				<tr>
+					<td width="200">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsr5eY4iq1tmA2RC5IOG-NWErgA-DKSFlKDg&s" alt="Classical Architecture">
+						
+						
+					</td>
+					<td width="600" class="text-content">
+						Classical architecture originated in ancient Greece and Rome. 
+                    It emphasizes symmetry, proportion, and the use of columns such as Doric, Ionic, and Corinthian styles. 
+                    These structures have influenced architectural design for centuries and remain iconic symbols of cultural heritage.
+				</td>
+					<td width="200">
+						<img src="https://media.architecturaldigest.com/photos/64526b147ae2e42df7436f42/4:3/w_2668,h_2001,c_limit/GettyImages-1442286876.jpg" alt="Roman Architecture">
+					</td>
+				</tr>
+					<tr>
+						<td width="200">
+							<img src="https://urbandesignforum.org/wp-content/uploads/McGuigan-Willis-Skyscraper.jpg" alt="Modern Skycraper">
+							
+						</td>
+						<td width="600" class="text-content">
+							Modern architecture focuses on minimalism, innovation, and the use of new materials such as steel, glass, and reinforced concrete. 
+                    Skyscrapers and contemporary buildings reflect advancements in engineering and sustainable design principles, 
+                    shaping the skylines of cities around the world.
+							
+						</td>
+						<td width="200">
+							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbASsEXBv2-UNUr6GrwFjOkryZkRfjl2aXEw&s" alt="Contemporary Architecture">
+                                 							
+						</td>
+					</tr>	
+						
+						
+					
+				
+			</table>
+			
+		</div>
+	</body>
 </html>
